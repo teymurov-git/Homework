@@ -32,3 +32,5 @@ aze_plane = Plane("AZAL", 100, 300, [])
 fake_passengers = generate_fake_clients(aze_plane.max_capacity)
 for passenger in fake_passengers:
     aze_plane.add_client(passenger)
+
+print(aze_plane.passengers)
